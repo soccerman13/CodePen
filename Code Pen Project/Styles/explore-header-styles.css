@@ -1,0 +1,93 @@
+/* common header styles */
+.explore-header {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    align-items: center;
+    margin: -8px;
+    height: 115px;}
+
+.explore-header > .explore-items {
+    display: flex;
+    justify-content: center;
+    word-spacing: 20px;
+    flex-direction: column;
+    margin-left: -25px;
+    margin-top: -20px;}
+
+.explore-header > .create-login-signup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+    margin-right: 5px;
+}
+
+.explore-header > .explore-items > .word-explore{color: gold;
+    margin-bottom: -25px;}
+
+.explore-header > .explore-items > .other-words {
+    margin-top: -10px;
+}
+
+.explore-header > .explore-items > .other-words {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.explore-header > .explore-items > .other-words > .spark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -150px;
+    color: #7B7E8B;
+}
+
+.explore-header > .explore-items > .other-words > .spark i{
+    padding-left: 15px;
+}
+/* Create Login Signup styles */
+
+.explore-header > .create-login-signup > .create-box {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.explore-header > .create-login-signup > .login-box {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.explore-header > .create-login-signup > .signup-box {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.explore-header > .create-login-signup > .create-box i{
+    color: #4ACB78;
+    margin-left: 10px;
+    font-size: 1.75rem;
+}
+.explore-header > .create-login-signup > .create-box {
+    padding:10px 20px;
+    border-radius: 5px;
+    background-color: #36383F;
+    height: 50px;
+}
+
+.explore-header > .create-login-signup > .login-box {
+    padding:10px 20px;
+    border-radius: 5px;
+    background-color: #36383F;
+    height: 50px;
+}
+
+.explore-header > .create-login-signup > .signup-box {
+    padding:10px 20px;
+    border-radius: 5px;
+    background-color: #36383F;
+    height: 50px;
+}
